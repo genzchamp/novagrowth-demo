@@ -165,3 +165,54 @@ footer {
     flex-direction: column;
   }
 }
+/* PRICING */
+.pricing {
+  padding: 100px 10%;
+  text-align: center;
+  background: #0f0f0f;
+}
+
+.pricing-sub {
+  color: #bbb;
+  max-width: 600px;
+  margin: 15px auto 50px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.price-card {
+  background: #141414;
+  padding: 40px 30px;
+  border-radius: 25px;
+  border: 1px solid #222;
+}
+
+.price-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 2.2rem;
+  color: #d4af37;
+  margin: 15px 0 25px;
+}
+
+.price-card ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.price-card ul li {
+  margin: 12px 0;
+  color: #ccc;
+}
+
+.featured {
+  border: 2px solid #d4af37;
+  transform: scale(1.05);
+}
