@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0b0b0b;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #d4af37;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.primary {
+  background: linear-gradient(135deg, #d4af37, #f5d97a);
+  color: #000;
+}
+
+.outline {
+  border: 1px solid #d4af37;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 10%;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #cccccc;
+  margin-bottom: 35px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* TRUST */
+.trust {
+  text-align: center;
+  padding: 50px 10%;
+  background: #111;
+}
+
+.logos span {
+  margin: 0 15px;
+  color: #888;
+}
+
+/* SERVICES */
+.services {
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  padding: 40px;
+  background: #141414;
+  border-radius: 20px;
+  border: 1px solid #222;
+}
+
+/* PROCESS */
+.process {
+  background: #111;
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.step {
+  padding: 30px;
+  border-radius: 20px;
+  background: #1a1a1a;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.testimonial {
+  max-width: 700px;
+  margin: 30px auto;
+  color: #ccc;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 10px;
+  color: #d4af37;
+}
+
+/* CTA */
+.cta {
+  background: linear-gradient(135deg, #d4af37, #f5d97a);
+  color: #000;
+  text-align: center;
+  padding: 100px 10%;
+}
+
+.cta p {
+  margin: 15px 0 30px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #666;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+  .hero-buttons {
+    flex-direction: column;
+  }
+}
